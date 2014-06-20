@@ -32,6 +32,9 @@ if (Meteor.isClient) {
     Template.item_post.Caption = function () {
         return this.caption;
     };
+    Template.item_post.link = function () {
+        return this.link;
+    };
 }
 
 if (Meteor.isServer) {
